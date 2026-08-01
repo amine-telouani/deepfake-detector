@@ -1,6 +1,6 @@
 # AI-Generated Image Detector
 
-A deep learning system that classifies images as **REAL** or **AI-GENERATED**, built as a PFA (school project). The model combines a CNN operating on raw pixels with a second CNN branch analyzing the image's frequency-domain (FFT) representation, since generative models leave subtle spectral artifacts that aren't visible to the naked eye but are statistically detectable.
+A deep learning system that classifies images as **REAL** or **AI-GENERATED**. The model combines a CNN operating on raw pixels with a second CNN branch analyzing the image's frequency-domain (FFT) representation, since generative models leave subtle spectral artifacts that aren't visible to the naked eye but are statistically detectable.
 
 **Live demo:** https://deepfake-detector-c4cdq8sjhqywu5y8zgjgak.streamlit.app/
 
