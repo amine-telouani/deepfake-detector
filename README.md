@@ -4,6 +4,10 @@ A deep learning system that classifies images as **REAL** or **AI-GENERATED**. T
 
 **Live demo:** https://deepfake-detector-c4cdq8sjhqywu5y8zgjgak.streamlit.app/
 
+## Demo video
+
+https://github.com/user-attachments/assets/2b8c4d77-b5fc-4429-8235-cc98a18ccfe2
+
 ## Overview
 
 - **Dataset:** CIFAKE — 120,000 images (real CIFAR-10 photos vs. Stable Diffusion-generated equivalents), 32x32 resolution.
