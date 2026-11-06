@@ -1,5 +1,4 @@
 import streamlit as st
-from pathlib import Path
 from PIL import Image
 import torch
 import torch.nn as nn
@@ -54,12 +53,6 @@ def to_tensor(img: Image.Image):
 model = load_model()
 
 st.title("Deepfake Detector")
-banner_path = Path(__file__).resolve().parent / "assets" / "detector-banner.png"
-st.image(
-    str(banner_path),
-    caption="Deepfake Detector",
-    use_container_width=True,
-)
 st.write("Upload an image to check if it's REAL or AI-GENERATED.")
 
 uploaded_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
