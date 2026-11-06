@@ -5,6 +5,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
+st.set_page_config(
+    page_title="Deepfake Detector",
+    page_icon="🔍",
+)
+
 class DualBranchCNN(nn.Module):
     def __init__(self):
         super().__init__()
@@ -47,7 +52,7 @@ def to_tensor(img: Image.Image):
 
 model = load_model()
 
-st.title("AI-Generated Image Detector")
+st.title("Deepfake Detector")
 st.write("Upload an image to check if it's REAL or AI-GENERATED.")
 
 uploaded_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
