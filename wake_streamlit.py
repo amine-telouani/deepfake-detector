@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
-STREAMLIT_URL = "https://deepfake-detector-c4cdq8sjhqywu5y8zgjgak.streamlit.app/"
+STREAMLIT_URL = "https://amine-telouani-deepfake-detector.streamlit.app/"
 
 def main():
     options = Options()
